@@ -15,6 +15,10 @@ module.exports = function(sequelize, DataTypes) {
         flavor_creator: {
             type: DataTypes.STRING,
             allowNull: false
+        },
+        flavor_favorite: {
+            type: DataTypes.BOOLEAN,
+            default: false
         }
     });
     return Flavor;

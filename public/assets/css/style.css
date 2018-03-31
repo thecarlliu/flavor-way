@@ -4,7 +4,12 @@ p {
 
 #header {
     padding-top: 10px;
+    margin-bottom: 2px;
 
+}
+
+.flavor-section {
+    margin-bottom: 5px;
 }
 
 .column-box {
@@ -17,10 +22,12 @@ p {
     border-radius: 0px;
     margin-top: 2px;
     margin-bottom: 2px;
+    padding: 0px;
+    padding-top: 4px;
 }
 
-.flavor-section {
-    margin-bottom: 5px;
+.flavor-content {
+    margin: 0;
 }
 
 #input-field-areas {

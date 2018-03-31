@@ -27,7 +27,7 @@ router.post("/flavors/create", function(req, res) {
         flavor_name: req.body.flavor_name,
         flavor_description: req.body.flavor_description,
         flavor_image: req.body.flavor_image,
-        flavor_creator: req.body.flavor_creator
+        flavor_creator: req.body.flavor_creator,
     }).then(function(dbFlavor) {
         //Refreshes the page, in order to load new flavor
         res.redirect("/");
@@ -41,6 +41,20 @@ router.put("/flavors/update", function(req, res) {
         flavor_description: req.body.flavor_description,
         flavor_image: req.body.flavor_image,
         flavor_creator: req.body.flavor_creator
+    }, {
+        where: {
+            id: req.body.flavor_id
+        }
+    }).then(function(dbFlavor) {
+        //Sends json back
+        res.json("/");
+    });
+});
+
+//Updates a flavor to favorite or not favorite
+router.put("/flavors/update", function(req, res) {
+    db.Flavor.update({
+        flavor_favorite: true
     }, {
         where: {
             id: req.body.flavor_id
