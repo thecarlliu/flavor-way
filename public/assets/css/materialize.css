@@ -2146,7 +2146,7 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: "Lato", sans-serif;
+  font-family: "Oleo Script", cursive;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -4427,7 +4427,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
+  font-family: "Oleo Script", cursive;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
