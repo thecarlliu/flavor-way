@@ -1,20 +1,66 @@
 p {
-    font-size: 7pt;
+    font-size: 7px;
 }
 
 #header {
-    /*background-color: rgba(179,157,219, 0.8);*/
     padding-top: 10px;
 
 }
 
 .column-box {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     border-radius: 5px;
+    font-size: 8px;
 }
 
-.card-panel {
+.flavor-box {
     border-radius: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.flavor-section {
+    margin-bottom: 5px;
+}
+
+#input-field-areas {
+    padding: 2px;
+}
+
+.input-field {
+    margin-top: 5px;
+}
+
+#username {
+    font-size: 7px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#username-label {
+    top: -5px;
+    font-size: 7px;
+    color: #b39ddb;
+}
+
+#username-label.active {
+    top: 10px;
+    color: #651fff;
+}
+
+#password {
+    font-size: 7px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+#password-label {
+    top: -5px;
+    font-size: 7px;
+    color: #b39ddb;
+}
+
+#password-label.active {
+    top: 10px;
+    color: #651fff;
 }
