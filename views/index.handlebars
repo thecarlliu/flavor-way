@@ -84,7 +84,7 @@
         <div class="col s12 m4">
             <div class="flavor-section column-box deep-purple accent-3 white-text z-depth-2">
                 Sign in / Register
-                <div id="input-field-areas" class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
+                <div id="signin-field-areas" class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
                     <div class="input-field deep-purple-text text-lighten-3">
                         <input id="username" type="text" class="validate">
                         <label id="username-label" for="username" data-error="wrong" data-success="right">Username</label>
@@ -97,15 +97,11 @@
             </div>
             <div class="flavor-section column-box deep-purple accent-3 white-text z-depth-2">
                 Create a flavor!
-                <div class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
-                    <div class="row flavor-content">
-                        <div class="col s4">
-                            <img src="http://via.placeholder.com/40x40">
-                        </div>
-                        <div class="col s8">
-                            <p>Flavor Title</p>
-                            <p>by Flavor Creator</p>
-                        </div>
+                <div id="create-field-areas" class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
+                    <div class="input-field deep-purple-text text-lighten-3">
+                        <input placeholder="Flavor Name" id="flavor-name-input" type="text" class="validate">
+                        <input placeholder="Flavor Description" id="flavor-description-input" type="text" class="validate">
+                        <input placeholder="Flavor Image (url)" id="flavor-image-input" type="text" class="validate">
                     </div>
                 </div>
             </div>

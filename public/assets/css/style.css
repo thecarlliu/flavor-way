@@ -30,7 +30,7 @@ p {
     margin: 0;
 }
 
-#input-field-areas {
+#signin-field-areas {
     padding: 2px;
 }
 
@@ -70,4 +70,26 @@ p {
 #password-label.active {
     top: 10px;
     color: #651fff;
+}
+
+#create-field-areas {
+    padding: 2px;
+}
+
+#flavor-name-input {
+    height: 20px;
+    font-size: 7px;
+    margin-bottom: 5px;
+}
+
+#flavor-description-input {
+    height: 20px;
+    font-size: 7px;
+    margin-bottom: 5px;
+}
+
+#flavor-image-input {
+    height: 20px;
+    font-size: 7px;
+    margin-bottom: 5px;
 }
