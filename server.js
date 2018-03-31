@@ -8,7 +8,7 @@ var db = require("./models");
 var app = express();
 
 //Serves public as a static directory
-app.use("/public", express.static(path.join(__dirname, "public")));
+app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 //Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({
