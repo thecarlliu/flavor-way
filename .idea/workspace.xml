@@ -14,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="101" column="62" lean-forward="false" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
+            <state relative-caret-position="400">
+              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <list>
         <option value="$PROJECT_DIR$/models/flavor.js" />
         <option value="$PROJECT_DIR$/controllers/flavors_controller.js" />
-        <option value="$PROJECT_DIR$/views/index.handlebars" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/views/index.handlebars" />
       </list>
     </option>
   </component>
@@ -220,12 +220,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522508934370</updated>
-      <workItem from="1522508936079" duration="11544000" />
+      <workItem from="1522508936079" duration="13299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11544000" />
+    <option name="totallyTimeSpent" value="13299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="24" width="942" height="823" extended-state="0" />
@@ -310,18 +310,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.handlebars">
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="101" column="62" lean-forward="false" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding />
         </state>
       </provider>
