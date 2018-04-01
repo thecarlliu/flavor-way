@@ -35,20 +35,17 @@ router.post("/flavors/create", function(req, res) {
     });
 });
 
-//Updates a flavor
-router.put("/flavors/update", function(req, res) {
+//Updates a flavor to flavorite
+router.put("/flavors/favorite", function(req, res) {
     db.Flavor.update({
-        flavor_name: req.body.flavor_name,
-        flavor_description: req.body.flavor_description,
-        flavor_image: req.body.flavor_image,
-        flavor_creator: req.body.flavor_creator
+        flavor_favorite: true
     }, {
         where: {
-            id: req.body.flavor_id
+            id: req.body.flavor
         }
     }).then(function(dbFlavor) {
         //Sends json back
-        res.json("/");
+        res.redirect("/");
     });
 });
 
