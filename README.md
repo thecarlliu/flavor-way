@@ -4,6 +4,8 @@
 
 ####TOdos
 
+-flavors should have area for showing when the flavor was created.
+
 - create buttons on every flavor in flavor feed that update the flavor.favorite to true/false (toggle)
 - when toggle button is clicked, ajax a put request that finds the flavor that was clicked in the DB by id, and updates that flavor, setting favorite=true, then redirects the page back to /flavors, thus the flavorites get loaded.
 
