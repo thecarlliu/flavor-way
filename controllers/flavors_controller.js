@@ -27,7 +27,7 @@ router.post("/flavors/create", function(req, res) {
         flavor_name: req.body.flavor_name,
         flavor_description: req.body.flavor_description,
         flavor_image: req.body.flavor_image,
-        flavor_creator: req.body.flavor_creator,
+        flavor_creator: req.body.flavor_creator
     }).then(function(dbFlavor) {
         //Refreshes the page, in order to load new flavor
         res.redirect("/");

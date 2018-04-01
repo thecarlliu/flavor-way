@@ -34,4 +34,10 @@ db.sequelize.sync().then(function() {
     app.listen(PORT, function() {
         console.log("App listening on PORT " + PORT);
     });
+    db.Flavor.create({
+        flavor_name: "Test Flavor",
+        flavor_description: "Test Description",
+        flavor_image: "https://via.placeholder.com/40x40/",
+        flavor_creator: "Carl"
+    });
 });
