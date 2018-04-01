@@ -59,7 +59,8 @@
         <div class="flavor-section col s4 m3">
             <div id="flavorites" class="column-box deep-purple accent-3 white-text z-depth-2">
                 Flavorites
-                {{#each flavorite}}
+                {{#each flavor}}
+                {{#if this.flavor_favorite}}
                 <div class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
                     <div class="row flavor-content">
                         <div class="col s12 m4">
@@ -71,6 +72,7 @@
                         </div>
                     </div>
                 </div>
+                {{/if}}
                 {{/each}}
                 <div class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
                     <div class="row flavor-content">
