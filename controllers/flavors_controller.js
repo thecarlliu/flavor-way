@@ -14,6 +14,7 @@ router.get("/flavors", function(req, res) {
             ["flavor_name", "ASC"]
         ]
     }).then(function(dbFlavor) {
+
         var hbsObject = {
             flavor: dbFlavor
         };
@@ -51,17 +52,20 @@ router.put("/flavors/update", function(req, res) {
     });
 });
 
-//Updates a flavor to favorite or not favorite
-router.put("/flavors/update", function(req, res) {
-    db.Flavor.update({
-        flavor_favorite: true
-    }, {
+//Gets all flavors where favorite=true and sends to index for rendering
+router.get("/flavors/favorite", function(req, res) {
+    db.Flavor.findAll({
         where: {
-            id: req.body.flavor_id
-        }
+            flavor_favorite: true
+        },
+        order: [
+            ["flavor_name", "ASC"]
+        ]
     }).then(function(dbFlavor) {
-        //Sends json back
-        res.json("/");
+        var flavorite = {
+            flavorite: dbFlavor
+        };
+        return res.json(flavorite)
     });
 });
 

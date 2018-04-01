@@ -40,4 +40,11 @@ db.sequelize.sync().then(function() {
         flavor_image: "https://via.placeholder.com/40x40/",
         flavor_creator: "Carl"
     });
+    db.Flavor.create({
+        flavor_name: "Test Flavor",
+        flavor_description: "Test Description",
+        flavor_image: "https://via.placeholder.com/40x40/",
+        flavor_creator: "Carl",
+        flavor_favorite: true
+    });
 });

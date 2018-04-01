@@ -59,17 +59,19 @@
         <div class="flavor-section col s4 m3">
             <div id="flavorites" class="column-box deep-purple accent-3 white-text z-depth-2">
                 Flavorites
+                {{#each flavorite}}
                 <div class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
                     <div class="row flavor-content">
                         <div class="col s12 m4">
-                            <a class="tooltipped" data-position="right" data-tooltip="Flavor Description."><img src="http://via.placeholder.com/40x40"></a>
+                            <a class="tooltipped" data-position="right" data-tooltip={{this.flavor_description}}><img src="http://via.placeholder.com/40x40"></a>
                         </div>
                         <div class="col s12 m8">
-                            <p>Flavor Title</p>
-                            <p>by Flavor Creator</p>
+                            <p>{{this.flavor_name}}</p>
+                            <p>{{this.flavor_creator}}</p>
                         </div>
                     </div>
                 </div>
+                {{/each}}
                 <div class="flavor-box card-panel white deep-purple-text text-lighten-3 z-depth-0">
                     <div class="row flavor-content">
                         <div class="col s12 m4">
